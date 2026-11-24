@@ -1,0 +1,19 @@
+================================================
+             PYTHON LOG ANALYZER
+================================================
+
+Total login attempts : 8
+Successful logins    : 2
+Failed logins        : 6
+Malformed records    : 0
+
+FAILED LOGIN ATTEMPTS BY IP
+------------------------------------------------
+192.168.1.10              4 failures
+192.168.1.30              2 failures
+
+REPEATED FAILURE ALERTS (Threshold: 3)
+------------------------------------------------
+[ALERT] 192.168.1.10 - 4 failed attempts
+
+================================================
